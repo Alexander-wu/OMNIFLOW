@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: omniflow-l1
+Version: 0.1.0
+Summary: L1 reproducible implementation scaffold for OMNIFLOW.
+Requires-Python: >=3.9
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: scipy>=1.12.0
+Requires-Dist: torch>=2.2.0
+Requires-Dist: torchvision>=0.17.0
+Requires-Dist: scikit-image>=0.22.0
+Requires-Dist: scikit-learn>=1.4.0
+Requires-Dist: pandas>=2.2.0
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: tqdm>=4.66.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: ruff>=0.4.0; extra == "dev"
