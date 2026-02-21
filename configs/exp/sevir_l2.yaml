@@ -1,0 +1,4 @@
+output_dir: outputs/sevir_l2
+data:
+  benchmark: sevir
+  use_synthetic_if_missing: false

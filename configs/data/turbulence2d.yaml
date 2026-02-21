@@ -1,0 +1,9 @@
+data:
+  benchmark: turbulence2d
+  sequence_length: 100
+  height: 128
+  width: 128
+  channels: 2
+  train_steps: 1
+  test_steps: 99
+  samples: 1280

@@ -1,0 +1,15 @@
+nes:
+  type: perturbative_persistence
+  ensemble_k: 8
+  perturbation_lambda: 0.02
+
+symbolic:
+  topk_regions: 5
+
+critic:
+  divergence_threshold: 0.15
+  energy_tolerance: 0.25
+
+agent:
+  uncertainty_threshold: 0.10
+  enable_counterfactual: true

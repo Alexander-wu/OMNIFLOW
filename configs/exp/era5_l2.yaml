@@ -1,0 +1,4 @@
+output_dir: outputs/era5_l2
+data:
+  benchmark: era5
+  use_synthetic_if_missing: false

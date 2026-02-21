@@ -1,0 +1,10 @@
+nes:
+  type: stronger_placeholder
+  ensemble_k: 16
+  perturbation_lambda: 0.01
+
+train:
+  enabled: true
+  epochs: 50
+  batch_size: 2
+  learning_rate: 0.0001

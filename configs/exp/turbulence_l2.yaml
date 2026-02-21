@@ -1,0 +1,4 @@
+output_dir: outputs/turbulence_l2
+data:
+  benchmark: turbulence2d
+  use_synthetic_if_missing: false
