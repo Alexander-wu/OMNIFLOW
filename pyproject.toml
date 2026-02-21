@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omniflow-l1"
+version = "0.1.0"
+description = "L1 reproducible implementation scaffold for OMNIFLOW."
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.26.0",
+  "scipy>=1.12.0",
+  "torch>=2.2.0",
+  "torchvision>=0.17.0",
+  "scikit-image>=0.22.0",
+  "scikit-learn>=1.4.0",
+  "pandas>=2.2.0",
+  "pyyaml>=6.0.1",
+  "tqdm>=4.66.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+  "ruff>=0.4.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
